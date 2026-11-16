@@ -10,7 +10,9 @@ test("Handle Radio Buttons", async ({ page }) => {
     await expect(await page.locator("#male")).toBeChecked();
 
 
-    //3)Assertions
+    //3)Assertions  // here Xpath is used for locating the radio button, 
+    // we can also use page.locator("#male")
+    
     // check returns true if the radio button is checked 
     await expect(await page.locator("//input[@value='male']").isChecked()).toBeTruthy();//male
     
