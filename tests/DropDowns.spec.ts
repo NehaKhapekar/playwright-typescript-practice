@@ -22,6 +22,6 @@ test("Handle DropDowns", async ({ page }) => {
   //expect(dropdownText?.includes('India')).toBeTruthy();
   await expect(page.locator('#country')).toContainText('India');
 
-  await page.waitForTimeout(5000);
+  await page.waitForTimeout(3000);
 
 })
