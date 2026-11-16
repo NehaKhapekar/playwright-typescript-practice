@@ -4,7 +4,7 @@ test("Verify Input Box", async ({ page }) => {
 
     await page.goto('https://testautomationpractice.blogspot.com/');
 
-    //Inputbox - firstname
+    //Inputbox - Name
 
   //1) Check weather the inputbox is visible
   await expect(await page.locator("//input[@id='name']")).toBeVisible();
