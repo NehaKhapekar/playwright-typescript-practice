@@ -5,7 +5,7 @@ test("Handle checkboxes", async ({ page }) => {
 // Navigate to test page
   await page.goto('https://testautomationpractice.blogspot.com/');
   
-// ✅ Single checkbox
+// ✅ Single checkbox ✅ 
   await page.locator("#monday").check();
   await page.waitForTimeout (3000);
 
@@ -13,7 +13,7 @@ test("Handle checkboxes", async ({ page }) => {
   await expect(page.locator("#monday")).toBeChecked();
   await expect(page.locator("#sunday")).not.toBeChecked();
 
- // ✅ Multiple checkboxes
+ // ✅ Multiple checkboxes ✅ 
   const checkboxLocators = [
     "#monday",
     "#sunday",
