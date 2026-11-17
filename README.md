@@ -56,5 +56,5 @@ Step 6: View the test report
 
 🎯 Purpose:
 
-This is a learning and practice repository, not a complete automation framework. I am using it to build my understanding of Playwright cript and gradually learn the concepts and practices involved in designing a maintainable test automation framework.
+This is a learning and practice repository, not a complete automation framework. I am using it to build my understanding of Playwright script and gradually learn the concepts and practices involved in designing a maintainable test automation framework.
 
