@@ -20,6 +20,7 @@ test("Verify Input Box", async ({ page }) => {
   
   
   await page.locator("#name").fill("Neha Khapekar");
+  await page.locator("#email").pressSequentially("test@gmail.com"); // type character-by-character into the input box
   await page.waitForTimeout(3000); //pausing code
 
 
